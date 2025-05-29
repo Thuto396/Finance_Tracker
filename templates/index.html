@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+{% block content %}
+<h2>Dashboard</h2>
+<p><strong>Balance:</strong> R{{ balance }}</p>
+<p>Income: R{{ income }} | Expense: R{{ expense }}</p>
+
+<h3>Transactions</h3>
+<ul>
+    {% for t in transactions %}
+    <li>{{ t.date }} - {{ t.type }} - {{ t.category }}: R{{ t.amount }}</li>
+    {% endfor %}
+</ul>
+{% endblock %}

@@ -1,0 +1,32 @@
+[
+  {
+    "type": "income",
+    "amount": 5000,
+    "category": "Salary",
+    "date": "2025-05-01"
+  },
+  {
+    "type": "expense",
+    "amount": 1000,
+    "category": "Rent",
+    "date": "2025-05-02"
+  },
+  {
+    "type": "expense",
+    "amount": 300,
+    "category": "Groceries",
+    "date": "2025-05-03"
+  },
+  {
+    "type": "income",
+    "amount": -0.04,
+    "category": "",
+    "date": "2025-05-29"
+  },
+  {
+    "type": "income",
+    "amount": 300.0,
+    "category": "Car",
+    "date": "2024-12-18"
+  }
+]

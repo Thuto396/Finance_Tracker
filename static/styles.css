@@ -1,0 +1,86 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 20px;
+    background-color: #f0fff4;
+    /* soft green background */
+    color: #1a3c2b;
+}
+
+h1,
+h2,
+h3 {
+    color: #14532d;
+    /* dark green titles */
+}
+
+nav {
+    margin-bottom: 15px;
+    background-color: #d1fae5;
+    /* very light green bar */
+    padding: 10px;
+    border-radius: 5px;
+}
+
+nav a {
+    margin-right: 15px;
+    text-decoration: none;
+    color: #065f46;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #064e3b;
+}
+
+form label {
+    display: block;
+    margin-top: 10px;
+}
+
+form input,
+form select {
+    padding: 8px;
+    width: 100%;
+    max-width: 300px;
+    border: 1px solid #cbd5e0;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #10b981;
+    /* emerald green */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #059669;
+    /* darker green */
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+ul li {
+    background-color: #ecfdf5;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-left: 5px solid #34d399;
+    /* accent bar */
+    border-radius: 5px;
+}
+
+p {
+    margin-bottom: 10px;
+}
+
+strong {
+    color: #047857;
+    /* balance labels */
+}
