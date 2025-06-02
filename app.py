@@ -44,8 +44,17 @@ def add_transaction():
         data.append(transaction)
         save_data(data)
         return redirect("/")
-
+    
     return render_template("add.html")
+
+@app.route("/delete/<int:index>", methods=["POST"])
+def delete_transaction(index):
+    data = load_data()
+    if 0 <= index < len(data):
+        data.pop(index)
+        save_data(data)
+    return redirect("/")
+
 
 if __name__ == "__main__":
     app.run(debug=True)
